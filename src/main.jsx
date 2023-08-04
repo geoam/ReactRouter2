@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import Home from "./components/Home.jsx";
 import Header from "./components/Header.jsx";
-import Red from "./components/red.jsx";
-import Blue from "./components/blue.jsx";
+import Red from "./components/Red.jsx";
+import Blue from "./components/Blue.jsx";
 ReactDOM.createRoot(document.getElementById('root')).render(
 <Router>
   <Header />
